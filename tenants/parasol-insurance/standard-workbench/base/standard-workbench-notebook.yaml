@@ -17,7 +17,7 @@ spec:
       affinity: {}
       containers:
         - name: standard-workbench
-          image: 'image-registry.openshift-image-registry.svc:5000/redhat-ods-applications/s2i-generic-data-science-notebook:2024.1'
+          image: 'quay.io/modh/odh-generic-data-science-notebook@sha256:57c94e929bd0f672cb0a96b15c937a81e6cc1a25e42e923c3d255d2803bdb90f'
           resources:
             limits:
               cpu: '2'
